@@ -3,8 +3,9 @@ import matplotlib.pyplot as plt
 import matplotlib.image as img
   
 
-photo=img.imread(r'path\to\image.png')
+photo=img.imread(r'path\to\image.jpg')
 
+# I need to add other image extensions
 # I have to add features
 ############################# Afficher la photo ainsi ses versions couleurs rouge, vert et bleu #######################################################
 

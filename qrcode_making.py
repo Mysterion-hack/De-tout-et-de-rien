@@ -1,6 +1,9 @@
+################################ Let's create a simple QR code using an image on the net ######################################################
+# I have to add personnilisation features to the code 
 import qrcode
-image = qrcode.make("https://drive.google.com/drive/u/3/my-drive")
+
+image = qrcode.make("URL to image")
 type(image)
-image.save("code.png")
+image.save("imageName.png")
 
 print("success")

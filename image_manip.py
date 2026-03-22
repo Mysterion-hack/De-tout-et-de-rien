@@ -1,5 +1,4 @@
 import numpy as np
-from math import *
 import matplotlib.pyplot as plt
 import matplotlib.image as img
   

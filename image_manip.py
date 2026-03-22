@@ -5,7 +5,7 @@ import matplotlib.image as img
 
 photo=img.imread(r'path\to\image.png')
 
-
+# I have to add features
 ############################# Afficher la photo ainsi ses versions couleurs rouge, vert et bleu #######################################################
 
 red = [[[0,0,0] for j in range(len(photo[0]))] for i in range(len(photo))]
